@@ -2,10 +2,11 @@ package com.senla.task.bookstore.comparators;
 
 import java.util.Comparator;
 
+import com.senla.task.bookstore.interfaces.IComparator;
 import com.senla.task.bookstore.model.*;
 
 
-public class Comp {
+public class Comp implements IComparator{
 	
 	public static Comparator<Book> BookTitleComparator() {
         return new Comparator<Book>() {

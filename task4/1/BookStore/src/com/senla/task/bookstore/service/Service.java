@@ -8,9 +8,10 @@ import com.senla.task.bookstore.model.*;
 import com.senla.task.bookstore.model.enumerations.OrderStatus;
 import com.senla.task.bookstore.store.Store;
 import com.senla.task.bookstore.comparators.Comp;
+import com.senla.task.bookstore.interfaces.IService;
 
 
-public class Service {
+public class Service implements IService{
 	
 	private Store store;
 	
@@ -29,7 +30,6 @@ public class Service {
 	public void removeBook(Book book) {
 		store.removeBook(book);
 	}
-	
 	
 	
 	public void setBookStore(Store store) {

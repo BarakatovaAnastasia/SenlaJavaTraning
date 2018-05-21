@@ -2,8 +2,10 @@ package com.senla.task.bookstore.model;
 
 import java.time.LocalDate;
 
+import com.senla.task.bookstore.interfaces.IBook;
 
-public class Book {
+
+public class Book implements IBook {
 	private String title;
 	private String author;
 	private int price;

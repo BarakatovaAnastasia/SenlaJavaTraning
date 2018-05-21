@@ -5,11 +5,12 @@ import com.senla.task.bookstore.model.Book;
 import java.time.LocalDate;
 import java.util.ArrayList;
 
+import com.senla.task.bookstore.interfaces.IStore;
 import com.senla.task.bookstore.model.Apply;
 import com.senla.task.bookstore.model.Order;
 import com.senla.task.bookstore.model.enumerations.OrderStatus;
 
-public class Store {
+public class Store implements IStore{
 	private ArrayList<Book> books; 
     private ArrayList<Order> orders;
     private ArrayList<Apply> apps;

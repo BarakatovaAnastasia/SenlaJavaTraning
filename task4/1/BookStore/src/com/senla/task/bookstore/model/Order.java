@@ -3,9 +3,10 @@ package com.senla.task.bookstore.model;
 import java.util.ArrayList;
 import java.time.LocalDate;
 
+import com.senla.task.bookstore.interfaces.IOrder;
 import com.senla.task.bookstore.model.enumerations.OrderStatus;
 
-public class Order {
+public class Order implements IOrder{
 	
 	private Customer customer;
 	private ArrayList<Book> books = new ArrayList<>();
