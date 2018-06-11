@@ -1,0 +1,3 @@
+sherlock;author1;500
+anna;author2;300
+germini;author3;1500

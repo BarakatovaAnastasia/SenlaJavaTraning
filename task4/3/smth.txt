@@ -1,0 +1,30 @@
+[Order [customer=John , books=[Title: sherlock Author: author1 Publication Date: 1985-07-20 Price: 500
+, Title: anna Author: author2 Publication Date: 1995-04-20 Price: 300
+], status=Done, price=800, completionDate=2018-05-16]]
+Sort by name: 
+[Title: anna Author: author2 Publication Date: 1995-04-20 Price: 300
+, Title: germini Author: author3 Publication Date: 2005-11-20 Price: 1500
+, Title: sherlock Author: author1 Publication Date: 1985-07-20 Price: 500
+]
+sort by publication date: 
+[Title: sherlock Author: author1 Publication Date: 1985-07-20 Price: 500
+, Title: anna Author: author2 Publication Date: 1995-04-20 Price: 300
+, Title: germini Author: author3 Publication Date: 2005-11-20 Price: 1500
+]
+sort by price: 
+[Title: anna Author: author2 Publication Date: 1995-04-20 Price: 300
+, Title: sherlock Author: author1 Publication Date: 1985-07-20 Price: 500
+, Title: germini Author: author3 Publication Date: 2005-11-20 Price: 1500
+]
+Start massiv: 
+ [Title: sherlock Author: author1 Publication Date: 1985-07-20 Price: 500
+, Title: anna Author: author2 Publication Date: 1995-04-20 Price: 300
+, Title: germini Author: author3 Publication Date: 2005-11-20 Price: 1500
+]
+initial array
+Title: sherlock Author: author1 Publication Date: 1985-07-20 Price: 500
+
+Title: anna Author: author2 Publication Date: 1995-04-20 Price: 300
+
+Title: germini Author: author3 Publication Date: 2005-11-20 Price: 1500
+

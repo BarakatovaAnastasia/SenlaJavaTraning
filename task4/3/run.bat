@@ -1,0 +1,1 @@
+java -jar BookStore.jar -cp textFileWorker.jar > smth.txt
